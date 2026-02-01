@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1769878462988_kgx6avzae",
+  "approvalId": "approval_1769878450162_ifxc9rjiu",
+  "approvalTitle": "API URL Update to x402guard.xyz - Requirements",
+  "version": 2,
+  "timestamp": "2026-01-31T16:54:22.988Z",
+  "trigger": "approved",
+  "status": "pending",
+  "content": "# Requirements: API URL Update to x402guard.xyz\n\n## Overview\nUpdate all API calls and UI references from the current API endpoint (`https://skillguard-api.vercel.app`) to the new production domain (`http://x402guard.xyz/`).\n\n## Goals\n1. Centralize API URL configuration for easy maintenance\n2. Update all code references to use the new domain\n3. Update UI/documentation references for consistency with the x402guard branding\n\n## Requirements\n\n### R1: Update API Configuration\n- Update `lib/constants.ts` to use `http://x402guard.xyz` as the default API URL\n- Ensure environment variable override (`NEXT_PUBLIC_API_URL`) still works\n\n### R2: Update Code Examples in UI\n- Update `components/sections/Integration.tsx` code examples to show the new API URL\n- Ensure curl examples and code snippets reflect the actual production endpoint\n\n### R3: Update Metadata and Branding\n- Verify `app/layout.tsx` metadataBase uses correct domain for x402guard.xyz\n- Update any hardcoded URLs in metadata/SEO configuration\n\n### R4: Update GitHub Repository References\n- Update `GITHUB_API_REPO` constant to point to correct API repository if needed\n\n## Out of Scope\n- Backend/API changes (this is frontend-only)\n- DNS configuration\n- SSL/TLS certificate setup\n\n## Acceptance Criteria\n- [ ] All API calls route to `http://x402guard.xyz/`\n- [ ] Code examples in Integration section show correct URL\n- [ ] Build completes without errors\n- [ ] Development server runs successfully\n",
+  "fileStats": {
+    "size": 1460,
+    "lines": 38,
+    "lastModified": "2026-01-31T16:54:06.076Z"
+  },
+  "comments": []
+}

@@ -1,0 +1,22 @@
+{
+  "filePath": ".spec-workflow/specs/remove-opensource/requirements.md",
+  "currentVersion": 2,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2026-02-01T05:30:36.355Z",
+      "trigger": "initial",
+      "approvalId": "approval_1769923836353_gxshxi7e7",
+      "approvalTitle": "Requirements: Remove Open Source References"
+    },
+    {
+      "version": 2,
+      "filename": "snapshot-002.json",
+      "timestamp": "2026-02-01T06:00:54.027Z",
+      "trigger": "approved",
+      "approvalId": "approval_1769923836353_gxshxi7e7",
+      "approvalTitle": "Requirements: Remove Open Source References"
+    }
+  ]
+}

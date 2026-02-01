@@ -1,0 +1,22 @@
+{
+  "filePath": ".spec-workflow/specs/developer-friendly-ui/requirements.md",
+  "currentVersion": 2,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2026-01-31T15:38:42.657Z",
+      "trigger": "initial",
+      "approvalId": "approval_1769873922651_t99j00n0u",
+      "approvalTitle": "Requirements: Developer-Friendly UI Redesign for x402guard-web"
+    },
+    {
+      "version": 2,
+      "filename": "snapshot-002.json",
+      "timestamp": "2026-01-31T15:38:55.997Z",
+      "trigger": "approved",
+      "approvalId": "approval_1769873922651_t99j00n0u",
+      "approvalTitle": "Requirements: Developer-Friendly UI Redesign for x402guard-web"
+    }
+  ]
+}
