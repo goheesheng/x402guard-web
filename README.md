@@ -1,4 +1,4 @@
-# x402guardd Web [Depreciated]
+# x402guard Web [Depreciated]
 
 > **Landing page for x402guard.xyz** — Pre-install security auditing for AI agent skills
 
@@ -81,7 +81,7 @@ CMD ["pnpm", "start"]
 ## Project Structure
 
 ```
-skillscan-web/
+x402guard-web/
 ├── app/
 │   ├── globals.css      # Tailwind + custom styles
 │   ├── layout.tsx       # Root layout with metadata
