@@ -1,6 +1,6 @@
-# SkillScan Web
+# x402guardd Web [Depreciated]
 
-> **Landing page for SkillScan** — Pre-install security auditing for AI agent skills
+> **Landing page for x402guard.xyz** — Pre-install security auditing for AI agent skills
 
 ## Tech Stack
 
@@ -55,7 +55,7 @@ None required for the landing page. The demo uses simulated data.
 For connecting to the actual API:
 
 ```bash
-NEXT_PUBLIC_API_URL=https://skillscan.ai
+NEXT_PUBLIC_API_URL=https://x402guard.xyz
 ```
 
 ## Deployment
@@ -94,9 +94,7 @@ skillscan-web/
 
 ## Related
 
-- **API Backend:** https://github.com/goheesheng/skillguard-api
 - **x402 Protocol:** https://x402.org
-- **x402-secure:** https://github.com/t54-labs/x402-secure
 
 ## License
 
